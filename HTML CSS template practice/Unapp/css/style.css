@@ -1,0 +1,64 @@
+html{
+    font-size: calc(18px+0.25vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #6D8FE2;
+    font-weight: bold;
+   /* width: 100vw;*/
+    color:white;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+header nav #logo{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+header nav ul{
+    margin:0
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    letter-spacing: 2px;
+    font-size:12px;
+}
+
+header nav ul li:hover{
+    cursor:pointer;
+    color:saddlebrown;
+}
+
+/*works slide-out block*/
+#work_slide-out{
+    background-color: black;
+    color:#888888;
+    width: 7.5em;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#work_slide-out a{
+    display: block;
+}
+
+#work_slide-out a:hover{
+    color:white;
+    cursor:pointer;
+}
+
+#works:hover + #work-slide-out{
+    display: block;
+}

@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Unapp</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html">UNAPP</a>
+            <a id="logo" href="index.html">UNAPP</a>
             <ul>
-                <li>HOME</li>
-                <li>WORKS</li>
-                <li>SERVICES</li>
-                <li>BLOG</li>
-                <li>ABOUT</li>
-                <li>SHOP</li>
-                <li>CONTACT</li>
+                <li><a>HOME</a></li>
+                <li id="works"><a>WORKS</a></li>
+                <div id="work_slide-out">
+                    <a>Works grid with text</a>
+                    <a>Works grid w/o text</a>
+                </div>
+                <li><a>SERVICES</a></li>
+                <li><a>BLOG</a></li>
+                <li><a>ABOUT</a></li>
+                <li><a>SHOP</a></li>
+                <li><a>CONTACT</a></li>
             </ul>
         </nav>
         <h2>Take on your biggest projects and goals</h2>
@@ -26,10 +32,10 @@
         <a href="#">Get premium</a>
     </header>
     <main>
-        <article>
+        <article id="spinner">
             <img src="images/dashboard.jpg" alt="dashboard example">
         </article>
-        <article>
+        <article id="actions">
             <section>
                 <img src="images/template_icon.png" alt="">
                 <h1>Create your own template</h1>
@@ -46,46 +52,48 @@
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </section>
         </article>
-        <article>
+        <article id="videoblock">
             <section>
                 <h2>Collaborate with your design team in a new way</h2>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
                 <button>▶</button>
             </section>
         </article>
-        <article>
-            <aside><img src="images/template_example.jpg" alt="Template example"></aside>
-            <h2></h2>
-            <section>
-                <img src="images/lightbulb_icon.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </section>
-            <section>
-                <img src="images/compass_icon.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-            </section>
-            <section>
-                <img src="images/chemical_icon.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </section>
-            <a>Start collaborating</a>
-        </article>
-        <article>
-            <h2></h2>
-            <section>
-                <img src="images/lightbulb_icon.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </section>
-            <section>
-                <img src="images/compass.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-            </section>
-            <section>
-                <img src="images/chemical_icon.png" alt="">
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </section>
-            <a>Start collaborating</a>
-            <aside><img src="images/template_example2.jpg" alt="Template example"></aside>
+        <article id="template_benefits">
+            <div id="real_template">
+                <aside><img src="images/template_example.jpg" alt="Template example"></aside>
+                <h2>Real template creation</h2>
+                <section>
+                    <img src="images/lightbulb_icon.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                </section>
+                <section>
+                    <img src="images/compass_icon.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                </section>
+                <section>
+                    <img src="images/chemical_icon.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                </section>
+                <a>Start collaborating</a>
+            </div>
+            <div id="finish_template">
+                <h2>Finish template creation</h2>
+                <section>
+                    <img src="images/lightbulb_icon.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                </section>
+                <section>
+                    <img src="images/compass.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
+                </section>
+                <section>
+                    <img src="images/chemical_icon.png" alt="">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                </section>
+                <a>Start collaborating</a>
+                <aside><img src="images/template_example2.jpg" alt="Template example"></aside>
+            </div>
         </article>
         <article>
             <section>
@@ -110,7 +118,7 @@
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
                 <div>
                     <img src="images/dev1.jpg" alt="Dave miller picture">
-                    <h5>by Dave Miller</h5>
+                    <a>by Dave Miller</a>
                 </div>
             </section>
             <section>
@@ -119,7 +127,7 @@
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
                 <div>
                     <img src="images/dev1.jpg" alt="Dave miller picture">
-                    <h5>by Dave Miller</h5>
+                    <a>by Dave Miller</a>
                 </div>
             </section>
             <section>
@@ -128,7 +136,7 @@
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
                 <div>
                     <img src="images/dev1.jpg" alt="Dave miller picture">
-                    <h5>by Dave Miller</h5>
+                    <a>by Dave Miller</a>
                 </div>
             </section>
         </article>
@@ -141,32 +149,32 @@
             </form>
         </article>
         <article>
-            <h2></h2>
-            <p></p>
+            <h2>Pricing</h2>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
             <section>
-                <h3></h3>
-                <h4></h4>
+                <span>$</span>
+                <h3>9</h3>
                 <h5>per month</h5>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <button>Select Plan</button>
             </section>
             <section>
-                <h3></h3>
-                <h4></h4>
+                <span>$</span>
+                <h3>27</h3>
                 <h5>per month</h5>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <button>Select Plan</button>
             </section>
             <section>
-                <h3></h3>
-                <h4></h4>
+                <span>$</span>
+                <h3>74</h3>
                 <h5>per month</h5>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <button>Select Plan</button>
             </section>
             <section>
-                <h3></h3>
-                <h4></h4>
+                <span>$</span>
+                <h3>140</h3>
                 <h5>per month</h5>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <button>Select Plan</button>
@@ -176,19 +184,19 @@
             <section>
                 <h3>ABOUT UNAPP</h3>
                 <p>Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="twitter.com"><img src="images/twitter.png" alt="twitter link"></a>
+                <a href=""><img src="images/facebook.png" alt="facebook link"></a>
+                <a href=""><img src="images/linkedin.png" alt="linked in link"></a>
+                <a href=""><img src="images/instagram.png" alt="instagram link"></a>
             </section>
             <section>
                 <h3>INFORMATION</h3>
-                <h4></h4>
-                <h4></h4>
-                <h4></h4>
-                <h4></h4>
-                <h4></h4>
-                <h4></h4>
+                <a href="">✔ Home</a>
+                <a href="">✔ Gallery</a>
+                <a href="">✔ About</a>
+                <a href="">✔ Blog</a>
+                <a href="">✔ Contact</a>
+                <a href="">✔ Privacy</a>
             </section>
             <section>
                 <h3>RECENT BLOG</h3>
